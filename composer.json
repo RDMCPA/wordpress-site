@@ -1,23 +1,23 @@
 {
-  "name": "fmccoy/wordpress-site",
+  "name": "rdmcpa/wordpress-site",
   "description": "Use Composer to install new WordPress",
   "type": "wordpress-core",
-  "homepage": "https://github.com/fmccoy/wordpress-site",
+  "homepage": "https://github.com/RDMCPA/wordpress-site",
   "license": "MIT",
   
   "version": "0.0.1",
   "authors":  [
     {
       "name": "Frank McCoy",
-      "email":  "frankmccoy.d@gmail.com",
-      "homepage": "https://github.com/fmccoy",
+      "email":  "admin@rdmcpa.com",
+      "homepage": "https://github.com/RDMCPA/",
       "role": "developer"
     }
   ],
   "repositories": [
     {
       "type": "composer",
-      "url": "http://packages.fmccoy.info"
+      "url": "http://satis.rdmccoycpa.com"
     },
     {
       "type": "composer",
@@ -31,8 +31,9 @@
     "composer/installers": "~1.0",
     "johnpbloch/wordpress-core-installer": "dev-master",
     "wordpress/wordpress": "dev-master",
-    "fmccoy/wordpress-helpers": "dev-master",
-    "johdesign/bootstrap-theme": "dev-master"
+    "rdmcpa/_s": "dev-master",
+    "rdmcpa/wordpress-helpers": "dev-master",
+    "rdmcpa/bootstrap-theme": "dev-master"
   },
   "extra": {
     "wordpress-install-dir": "wp",
