@@ -4,8 +4,6 @@
   "type": "wordpress-core",
   "homepage": "https://github.com/RDMCPA/wordpress-site",
   "license": "MIT",
-  
-  "version": "0.0.1",
   "authors":  [
     {
       "name": "Frank McCoy",
@@ -17,7 +15,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://satis.rdmccoycpa.com"
+      "url": "https://rdmsatis.herokuapp.com"
     },
     {
       "type": "composer",
